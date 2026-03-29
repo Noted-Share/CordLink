@@ -64,6 +64,7 @@ Cordlink is an **experimental personal project**.
 
 ---
 
+
 ## 📋 Requirements
 
 - Minecraft **1.21.3**
@@ -89,6 +90,8 @@ Cordlink is an **experimental personal project**.
 4. Make sure Discord desktop app is running
 5. Link your Discord account via the Cordlink bot
 6. Open Cordlink UI in Minecraft and press `Sync`
+<img width="643" height="517" alt="image" src="https://github.com/user-attachments/assets/e1f3027a-038b-442d-8792-a59317494496" />
+You can open UI in here
 7. Leave and rejoin your Discord voice channel
 
 ---
