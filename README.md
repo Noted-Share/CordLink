@@ -1,108 +1,159 @@
-## Important Warning
+# ⚠️ Important Warning
 
-Cordlink likely violates Discord's Terms of Service.
+> **Cordlink is NOT officially supported by Discord**
 
-This project interacts with and modifies Discord client behavior in ways that may not be permitted under Discord's Terms. By downloading or using Cordlink, you accept the risk that your Discord account may be restricted, suspended, or otherwise affected.
+Cordlink interacts with and modifies Discord client behavior in ways that may violate **Discord's Terms of Service**.
 
-Use it entirely at your own risk.
+By using this project, you acknowledge and accept that:
 
-If Discord requests that this project, its releases, or related distribution files be removed, they will be taken down immediately.
+- Your Discord account may be **restricted, suspended, or banned**
+- The project may be **removed at any time upon request**
+- You are using this entirely **at your own risk**
 
+---
 
-# Cordlink
+# 🎧 Cordlink
 
-Cordlink is a Windows-only Fabric mod that adds positional Discord voice to Minecraft.
+**Cordlink** is a Windows-only Fabric mod that brings  
+**positional Discord voice chat into Minecraft.**
 
-After linking your Discord account to your Minecraft account, Cordlink syncs Discord voice with in-game player positions so nearby players sound close and distant players sound far away.
+After linking your Discord account with your Minecraft account,  
+voice chat is synchronized with in-game player positions:
 
-## Why I Made This
+- 🔊 Nearby players sound louder
+- 🔉 Distant players sound quieter
 
-I made Cordlink because I wanted Discord voice to feel more natural inside Minecraft without forcing people to switch to a separate voice chat system.
+> Keep using Discord — but hear it inside the world.
 
-The goal was simple: keep using Discord, but make conversations feel like they are happening in the world around you.
+---
 
-## Project Status
+## 💡 Why Cordlink?
 
-Cordlink is an experimental personal project.
+> “I wanted Discord voice to feel like it exists inside Minecraft.”
 
-It is functional, but I am still deciding how far I want to take development and long-term public distribution. Things may change, break, or be removed without notice.
+Traditional options:
 
-## Features
+- Discord → convenient but no spatial immersion  
+- In-game voice → immersive but forces users to switch systems  
 
-- Discord voice positioned in Minecraft 3D space
-- Account linking by Minecraft UUID
-- One-file install: only the mod `.jar` is needed
-- Bundled native components extracted automatically on first sync
+Cordlink gives you both:
 
-## Requirements
+- ✅ Keep using Discord  
+- ✅ Natural 3D positional voice  
+- ✅ No extra voice chat platform required  
 
-- Minecraft 1.21.3
+---
+
+## 🚧 Project Status
+
+Cordlink is an **experimental personal project**.
+
+- Functionally working
+- Still evolving
+- Features and behavior may change or break without notice
+
+---
+
+## ✨ Features
+
+- 🎧 3D positional Discord voice
+- 🔗 Account linking via Minecraft UUID
+- 📦 One-file install (`.jar`)
+- ⚙️ Automatic native component extraction
+- 🚀 No external voice server required
+
+---
+
+## 📋 Requirements
+
+- Minecraft **1.21.3**
 - Fabric Loader
 - Fabric API
-- Java 21
+- Java **21**
 - Windows
-- Discord desktop app
+- Discord **desktop app**
 
-## Download
+---
 
-Download the latest release here:
+## 📥 Download
 
-[GitHub Releases](https://github.com/Noted-Share/CordLink/releases)
+👉 https://github.com/Noted-Share/CordLink/releases
 
-## Installation
+---
 
-1. Download the latest `cordlink-*.jar`.
-2. Put it into your `.minecraft/mods` folder.
-3. Launch Minecraft with Fabric.
-4. Make sure the Discord desktop app is running.
-5. Link your Discord account with your Minecraft account through the Cordlink Discord bot.
-6. Open the Cordlink screen in Minecraft and press `Sync`.
-7. Leave and rejoin the voice channel after syncing.
+## ⚙️ Installation
 
-## Important Notes
+1. Download the latest `cordlink-*.jar`
+2. Place it into your `.minecraft/mods` folder
+3. Launch Minecraft with Fabric
+4. Make sure Discord desktop app is running
+5. Link your Discord account via the Cordlink bot
+6. Open Cordlink UI in Minecraft and press `Sync`
+7. Leave and rejoin your Discord voice channel
+
+---
+
+## ⚠️ Important Notes
 
 - Windows only
 - Discord desktop only
-- After pressing `Sync`, you must leave and rejoin the voice channel for it to work properly
-- On first use, Cordlink extracts required native files into `.minecraft/cordlink`
-- Some antivirus or security tools may react to native extraction or process injection behavior
-- This is an unofficial project and is not affiliated with or endorsed by Discord, Mojang, Microsoft, or Fabric
-- Use at your own risk
+- Must rejoin voice channel after syncing
+- Native files are extracted to: .minecraft/cordlink
+- Antivirus may flag:
+- native extraction
+- process interaction
+- Not affiliated with:
+- Discord
+- Mojang
+- Microsoft
+- Fabric
 
-## Troubleshooting
+---
 
-### Sync says linked but voice is not positional
+## 🛠 Troubleshooting
 
-Leave and rejoin the Discord voice channel after pressing `Sync`.
+### ❌ Voice is not positional
 
-### Sync fails
+- Leave and rejoin the voice channel after `Sync`
 
-Check that:
+---
+
+### ❌ Sync fails
+
+Check:
 
 - Discord desktop is running
-- Your Discord account is linked correctly
-- You are using the latest release
-- Your antivirus did not block the mod or extracted native files
+- Account is properly linked
+- You are using latest version
+- Antivirus is not blocking files
 
-### No sound or wrong positioning
+---
+
+### ❌ No sound / incorrect positioning
 
 Try:
 
-- restarting Minecraft
-- restarting Discord
-- syncing again
-- rejoining the voice channel
+- Restart Minecraft
+- Restart Discord
+- Sync again
+- Rejoin voice channel
 
-## Support
+---
 
-If you need help or want to report a bug, join the support Discord:
+## 💬 Support
 
-[Discord Invite](https://discord.gg/7bGzPnNUjS)
+Join the support Discord:
 
-## Source / License
+👉 https://discord.gg/7bGzPnNUjS
 
-This repository is used for release distribution and documentation only.
+---
 
-Source code is not published here.  
-All rights reserved.
+## 📄 Source / License
 
+This repository is used for:
+
+- Release distribution
+- Documentation
+
+> Source code is NOT publicly available  
+> All rights reserved
