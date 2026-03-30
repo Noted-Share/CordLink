@@ -11,6 +11,12 @@ By using this project, you acknowledge and accept that:
 - You are using this entirely **at your own risk**
 
 ---
+## Repository Structure
+
+- Client (Minecraft mod): this repo
+- Mod: https://github.com/Noted-Share/CordLink_Mod
+- Native dll: https://github.com/Noted-Share/CordLink_Core
+
 
 # 🎧 Cordlink
 
