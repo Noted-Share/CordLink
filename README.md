@@ -11,6 +11,13 @@ By using this project, you acknowledge and accept that:
 - You are using this entirely **at your own risk**
 
 ---
+
+## License
+
+This project is licensed under the GPL-3.0 License.
+
+Unless otherwise stated, all components (Mod, Native dll) are covered under this license.
+
 ## Repository Structure
 
 - Client (Minecraft mod): this repo
