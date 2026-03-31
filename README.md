@@ -164,14 +164,4 @@ Join the support Discord:
 
 👉 https://discord.gg/7bGzPnNUjS
 
----
 
-## 📄 Source / License
-
-This repository is used for:
-
-- Release distribution
-- Documentation
-
-> Source code is NOT publicly available  
-> All rights reserved
