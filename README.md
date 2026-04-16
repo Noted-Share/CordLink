@@ -22,7 +22,7 @@ Unless otherwise stated, all components (Mod, Native dll) are covered under this
 
 - Client (Minecraft mod): this repo
 - Mod: https://github.com/Noted-Share/CordLink_Mod
-- Native dll: https://github.com/Noted-Share/CordLink_Core
+- Native dll is privated
 
 
 # 🎧 Cordlink
